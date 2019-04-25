@@ -794,6 +794,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2145139018}
   - component: {fileID: 2145139017}
+  - component: {fileID: 2145139019}
   - component: {fileID: 2145139020}
   m_Layer: 9
   m_Name: Player
@@ -864,6 +865,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2145139019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145139016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 404ab38e85666af48b7bb33ed709bbbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 2145139020}
+  WalkSpeed: 5
+  CrouchSpeed: 2
 --- !u!95 &2145139020
 Animator:
   serializedVersion: 3
